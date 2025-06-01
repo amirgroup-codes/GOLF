@@ -124,7 +124,7 @@ This section provides guidance on executing the different stages of the analysis
 
 ### 3. EVE Training and Ensemble Analysis
 
-*   **Training an EVE Model (Conceptual)**:
+*   **Training an EVE Model**:
     ```bash
     # Train the VAE component
     python train_VAE.py --msa_file path/to/your_msa.a3m \\
