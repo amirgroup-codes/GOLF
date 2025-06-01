@@ -1,0 +1,5 @@
+alignment: /usr/scratch/OLF/MSAgen/scripts/../results/OLF_HUMAN/align/OLF_HUMAN.sto
+domtblout: /usr/scratch/OLF/MSAgen/scripts/../results/OLF_HUMAN/align/OLF_HUMAN.domtblout
+output: /usr/scratch/OLF/MSAgen/scripts/../results/OLF_HUMAN/align/OLF_HUMAN.output
+prefix: /usr/scratch/OLF/MSAgen/scripts/../results/OLF_HUMAN/align/OLF_HUMAN
+tblout: /usr/scratch/OLF/MSAgen/scripts/../results/OLF_HUMAN/align/OLF_HUMAN.tblout

@@ -1,0 +1,11 @@
+Date: 2025-05-28 16:08:13
+Model path: ./ESM/ESM1b_2/esm1b_finetuned.pt
+Using fine-tuned model: True
+MODEL STATUS: USING FINE-TUNED MODEL
+Model type: ProteinBertModel
+Number of parameters: 652,359,094
+
+Prediction Stats:
+Total mutations processed: 4959
+GMM Classifications (based on delta_log_likelihood_sequence):
+  Pathogenic (GMM): 2589 (52.2%)\n  Benign (GMM): 2370 (47.8%)\n

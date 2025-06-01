@@ -1,0 +1,102 @@
+# -----------------------------------------------------------------------------
+# Large Model Files - DO NOT COMMIT THESE TO THE MAIN REPO
+# These should be stored elsewhere (e.g., Hugging Face Hub, cloud storage)
+# -----------------------------------------------------------------------------
+
+# ESM-1b fine-tuned models and checkpoints
+ESM/ESM1b/*.pt
+
+# EVE Ensemble model checkpoints and potentially other large outputs
+# This will ignore .pt files in any subdirectory of any folder within EVE Ensemble
+EVE\ Ensemble/**/*.pt
+EVE\ Ensemble/**/checkpoints/
+# EVE\ Ensemble/**/eve_scores/*.csv # Uncomment if these CSVs can get very large
+# EVE\ Ensemble/**/evol_indices/*.csv # Uncomment if these CSVs can get very large
+
+# General model file extensions
+*.pth
+*.pb
+*.safetensors
+*.onnx
+*.h5
+*.model
+*.ckpt
+
+# -----------------------------------------------------------------------------
+# Python specific
+# -----------------------------------------------------------------------------
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+VENV/
+*.egg-info/
+
+# Compiled Python files and cache
+__pycache__/
+*.py[cod] # Covers .pyc, .pyo, .pyd
+.pytest_cache/
+.mypy_cache/
+.tox/
+pip-wheel-metadata/
+pip-log.txt
+pip-delete-this-directory.txt
+profile_default/
+
+# -----------------------------------------------------------------------------
+# Common IDE / Editor / OS files
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+nbproject/ # NetBeans
+.project # Eclipse
+.DS_Store # macOS
+Thumbs.db # Windows
+Desktop.ini # Windows
+
+# -----------------------------------------------------------------------------
+# Log files
+# -----------------------------------------------------------------------------
+*.log
+logs/
+
+# -----------------------------------------------------------------------------
+# Data files (be more specific if needed)
+# -----------------------------------------------------------------------------
+# *.csv # Uncomment if you have large CSVs you don't want to track
+*.pkl
+*.pickle
+*.data
+*.dat
+*.npz
+*.npy # If they are very large and not essential to version
+
+# Archives
+*.zip
+*.tar.gz
+*.gz
+*.tgz
+*.rar
+
+# -----------------------------------------------------------------------------
+# Build artifacts & distribution
+# -----------------------------------------------------------------------------
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+wheels/
+*.whl
+# CMake
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints

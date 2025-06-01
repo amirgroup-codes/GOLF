@@ -1,0 +1,5 @@
+{
+    "prefix": "OLF_HUMAN",
+    "fasta_file": "OLF.fasta",
+    "region": "[224, 504]"
+}
